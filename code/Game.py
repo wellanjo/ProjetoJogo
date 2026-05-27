@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import pygame
 
-from code.menu import Menu
+from code.Menu import Menu
 
 
 class Game:
@@ -11,17 +11,6 @@ class Game:
         self.window = pygame.display.set_mode(size=(600, 480))
 
     def run(self):
-
-
-
-
-
-
-        # print('Setup Start')
-        #
-        # print('Setup End')
-        #
-        # print('Loop Start')
         while True:
             menu = Menu(self.window)
             menu.run()
